@@ -1,0 +1,130 @@
+.comment {
+    background: var(--white);
+    border-radius: 8px;
+    padding: 1.6rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    box-shadow: 2px 0px 2px var(--light-gray);
+}
+
+.commentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: 100%;
+}
+
+.commentArea {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    width: 100%;
+    max-width: 750px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4rem;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.content {
+    color: gray;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.userPhoto {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+}
+
+.userPhoto img {
+    width: 100%;
+}
+
+.username {
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.date{
+    color: gray;
+}
+
+.action {
+    color: var(--moderate-blue);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.action a:hover {
+    cursor:pointer;
+    color: var(--light-grayish-blue);
+}
+
+.reactions {
+    display: flex;
+    background: var(--light-gray);
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem .6rem;
+    align-items: center;
+    gap: .8rem;
+    min-width: 2.4rem;
+    color: var(--moderate-blue);
+    font-weight: 500;
+    height: max-content;
+}
+
+.reactions a.marked {
+    color: var(--moderate-blue);
+}
+
+.reactions a {
+    display: flex;
+    color: #C5C6EF;
+    cursor: pointer;
+}
+
+.reactions a:hover svg {
+    color: var(--moderate-blue);
+}
+
+.action a {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.comments{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0rem;
+}
+
+.newComment > div {
+    width: 100%;
+    max-width: 750px;
+}
+
+.newComment{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

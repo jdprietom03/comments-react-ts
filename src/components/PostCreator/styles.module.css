@@ -1,0 +1,54 @@
+
+.contentEditable {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+
+.postCreator {
+    background: var(--white);
+    padding: 1.4rem;
+    border-radius: 8px;
+    display: flex;
+}
+
+.contentEditable textarea {
+    resize: none;
+    border: 1px solid var(--moderate-blue);
+    border-radius: 6px;
+    padding: .6rem 1rem;
+    min-height: 90px;
+    outline: none;
+    width: 100%;
+}
+
+.contentEditable .button {
+    display: flex;
+    align-self: flex-end;
+}
+
+.contentEditable .button button {
+    background: var(--moderate-blue);
+    padding: .8rem 1.2rem;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.userPhoto {
+    width: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.imgContainer {
+    width: 40px;
+    object-fit: cover;
+}
+
+.imgContainer img {
+    width: 100%;
+}
